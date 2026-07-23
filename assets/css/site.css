@@ -328,6 +328,12 @@ button:focus,
   max-width: 100%;
 }
 
+/* The source recordings have ~12px black-cornered frames baked in; clipping
+   slightly deeper than that radius keeps the video corners clean. */
+.screenshot video {
+  border-radius: 16px;
+}
+
 .screenshot figcaption {
   color: var(--guide-muted);
   font-size: 0.875rem;
