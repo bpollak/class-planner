@@ -1,0 +1,651 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1" name="viewport">
+    <meta
+      content="Learn how to build, compare, review, save, share, and export schedule options with UC San Diego Class Planner."
+      name="description"
+    >
+    <title>Class Planner Guide | UC San Diego</title>
+
+    <meta content="#182b49" name="theme-color">
+    <link href="https://bpollak.github.io/class-planner/" rel="canonical">
+    <meta content="Class Planner Guide | UC San Diego" property="og:title">
+    <meta
+      content="Learn how to build, compare, review, save, share, and export schedule options with UC San Diego Class Planner."
+      property="og:description"
+    >
+    <meta content="website" property="og:type">
+    <meta content="https://bpollak.github.io/class-planner/" property="og:url">
+    <meta
+      content="https://bpollak.github.io/class-planner/assets/img/planner-calendar.png"
+      property="og:image"
+    >
+    <meta content="summary_large_image" name="twitter:card">
+    <link
+      href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='12' fill='%23182b49'/%3E%3Ctext x='32' y='43' font-family='Arial,Helvetica,sans-serif' font-size='28' font-weight='700' text-anchor='middle' fill='%23ffcd00'%3ECP%3C/text%3E%3C/svg%3E"
+      rel="icon"
+      type="image/svg+xml"
+    >
+
+    <link href="https://cdn.ucsd.edu/cms/decorator-5/styles/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.ucsd.edu/cms/decorator-5/styles/base.min.css" rel="stylesheet">
+    <link href="assets/css/site.css" rel="stylesheet">
+  </head>
+
+  <body>
+    <header class="layout-header">
+      <a class="sr-only skip-to-main" href="#main-content">Skip to main content</a>
+      <div id="uc-emergency"></div>
+
+      <section aria-label="Site name" class="layout-title">
+        <div class="layout-container container">
+          <a class="title-header title-header-large" href="#overview">Class Planner</a>
+          <a class="title-header title-header-short" href="#overview">Class Planner</a>
+          <a class="title-logo" href="https://ucsd.edu/">UC San Diego</a>
+        </div>
+      </section>
+    </header>
+
+    <nav aria-label="Guide sections" class="navbar navbar-default navbar-static-top">
+      <div class="container">
+        <!-- Decorator base.js expects these search hooks even when no site search is exposed. -->
+        <div aria-hidden="true" class="decorator-script-hooks" hidden>
+          <span class="search-toggle"></span>
+          <span class="search-content"></span>
+        </div>
+
+        <div class="navbar-header">
+          <button
+            aria-controls="navbar"
+            aria-expanded="false"
+            class="navbar-toggle collapsed"
+            data-target="#navbar"
+            data-toggle="collapse"
+            type="button"
+          >
+            <span class="sr-only">Toggle guide navigation</span>
+            <span aria-hidden="true" class="mobile-nav-bars">
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </span>
+            <span aria-hidden="true" class="mobile-nav-icon">MENU</span>
+          </button>
+          <div class="pull-right visible-xs-block mobile-logo-wrap">
+            <a aria-label="UC San Diego" href="https://ucsd.edu/">
+              <img
+                alt="UC San Diego"
+                class="img-responsive header-logo"
+                src="https://cdn.ucsd.edu/cms/decorator-5/styles/img/ucsd-footer-logo-white.png"
+              >
+            </a>
+          </div>
+        </div>
+
+        <div class="navbar-collapse collapse" id="navbar">
+          <ul class="nav navbar-nav navbar-nav-list">
+            <li class="active"><a href="#overview">Overview</a></li>
+            <li><a href="#build">Build your plan</a></li>
+            <li><a href="#preferences">Preferences</a></li>
+            <li><a href="#compare">Compare</a></li>
+            <li><a href="#swap">Fine-tune</a></li>
+            <li><a href="#share">Save and share</a></li>
+            <li><a href="#faq">FAQ</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <nav aria-label="Breadcrumb" class="container">
+      <ol class="breadcrumb">
+        <li><a href="https://ucsd.edu/">UC San Diego</a></li>
+        <li aria-current="page" class="active">Class Planner Guide</li>
+      </ol>
+    </nav>
+
+    <main class="layout-main" id="main-content">
+      <section class="guide-hero" id="overview">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-8">
+              <p class="eyebrow">Student guide</p>
+              <h1>Plan your schedule with Class Planner</h1>
+              <p class="lead">
+                Class Planner combines course meeting information with your preferences and
+                unavailable times to generate schedule alternatives you can compare before
+                enrollment.
+              </p>
+              <p>
+                Review each option carefully. TBA meetings, missing information, warnings, and
+                changing course availability may still affect whether a schedule works for you.
+              </p>
+              <p class="hero-actions">
+                <a class="btn btn-primary btn-lg" href="https://classplanner.apps.ucsd.edu/">
+                  Open Class Planner
+                  <span aria-hidden="true">→</span>
+                </a>
+              </p>
+            </div>
+            <div class="col-md-4">
+              <figure class="hero-shot">
+                <img
+                  alt="Class Planner course search with several courses added to a plan"
+                  class="img-responsive"
+                  decoding="async"
+                  height="520"
+                  src="assets/img/planner-search.png"
+                  width="520"
+                >
+              </figure>
+            </div>
+          </div>
+
+          <nav aria-label="Steps in this guide" class="step-nav">
+            <ol>
+              <li><a href="#build"><span>1</span>Build</a></li>
+              <li><a href="#preferences"><span>2</span>Set preferences</a></li>
+              <li><a href="#compare"><span>3</span>Compare</a></li>
+              <li><a href="#swap"><span>4</span>Fine-tune</a></li>
+              <li><a href="#share"><span>5</span>Save and share</a></li>
+            </ol>
+          </nav>
+        </div>
+      </section>
+
+      <section class="guide-section" id="build">
+        <div class="container">
+          <div class="row guide-row">
+            <div class="col-md-5">
+              <p class="step-label"><span>1</span> Build your plan</p>
+              <h2>Find the courses you are considering</h2>
+              <p>
+                Start with an available academic term, then search by course code or title.
+                Partial matches work, and course numbers do not need leading zeroes.
+              </p>
+              <ul class="feature-list">
+                <li>
+                  Search results show section counts, open seats, and waitlist spots when that
+                  information is available.
+                </li>
+                <li>Add between 1 and 12 courses to a plan.</li>
+                <li>
+                  Treat displayed seat and waitlist information as a current snapshot, not a
+                  reservation.
+                </li>
+              </ul>
+            </div>
+            <div class="col-md-7">
+              <figure class="screenshot">
+                <video
+                  controls
+                  height="720"
+                  muted
+                  playsinline
+                  poster="assets/img/planner-build-poster.png"
+                  preload="none"
+                  width="966"
+                >
+                  <source src="assets/video/planner-build.mp4" type="video/mp4">
+                  Your browser cannot play this video. See the
+                  <a href="assets/img/planner-search.png">course search screenshot</a> instead.
+                </video>
+                <figcaption>
+                  Video: searching for courses and adding them to a plan. Course offerings and
+                  availability change.
+                </figcaption>
+              </figure>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="guide-section section-tint" id="preferences">
+        <div class="container">
+          <div class="row guide-row guide-row-reverse">
+            <div class="col-md-5 col-md-push-7">
+              <p class="step-label"><span>2</span> Set preferences</p>
+              <h2>Tell the planner what works for you</h2>
+              <p>
+                Choose <strong>Open or waitlist</strong> or <strong>Open only</strong>, then rank
+                the schedule goals that matter most: <strong>Fewer days</strong>,
+                <strong>Later starts</strong>, and <strong>Shorter gaps</strong>.
+              </p>
+              <ul class="feature-list">
+                <li>
+                  Set class-time limits with <strong>Start no earlier</strong> and
+                  <strong>Finish by</strong>.
+                </li>
+                <li>
+                  Add recurring preferred days and time windows in which you would like classes
+                  to fall.
+                </li>
+                <li>
+                  Block times you cannot attend with weekly commitments or specific-date
+                  commitments.
+                </li>
+              </ul>
+              <p>
+                You can reopen the same preference sheet later from <strong>Options</strong>.
+              </p>
+            </div>
+            <div class="col-md-7 col-md-pull-5">
+              <figure class="screenshot">
+                <video
+                  controls
+                  height="720"
+                  muted
+                  playsinline
+                  poster="assets/img/planner-preferences-poster.png"
+                  preload="none"
+                  width="966"
+                >
+                  <source src="assets/video/planner-preferences.mp4" type="video/mp4">
+                  Your browser cannot play this video. See the
+                  <a href="assets/img/planner-preferences.png">schedule preferences screenshot</a>
+                  instead.
+                </video>
+                <figcaption>
+                  Video: setting enrollment, schedule goals, time limits, and preferred windows.
+                  Choose the priorities and constraints that match your week.
+                </figcaption>
+              </figure>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="guide-section" id="compare">
+        <div class="container">
+          <div class="section-heading">
+            <p class="step-label"><span>3</span> Compare and review</p>
+            <h2>Move through your schedule alternatives</h2>
+            <p class="lead">
+              Use <strong>Previous</strong> and <strong>Next</strong> to move through
+              <strong>Schedule n of n</strong>. The option marked
+              <strong>Best match based on your priorities</strong> most closely reflects your
+              settings; other alternatives may still work well.
+            </p>
+          </div>
+
+          <div class="row compare-notes">
+            <div class="col-sm-6">
+              <div class="info-card">
+                <h3 class="h4">Read the full calendar</h3>
+                <p>
+                  The weekly calendar includes all scheduled meeting types. Exams appear in a
+                  separate table below the calendar, so check both areas before choosing an
+                  option.
+                </p>
+              </div>
+            </div>
+            <div class="col-sm-6">
+              <div class="info-card">
+                <h3 class="h4">Check the review status</h3>
+                <p>
+                  <strong>No conflicts</strong> means no review items were reported.
+                  <strong>Review n</strong> means the planner found items to inspect, such as TBA
+                  times, missing components or availability data, or conflicts. A warning does
+                  not always make the schedule unusable.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <figure class="screenshot screenshot-wide">
+            <img
+              alt="Schedule alternative with navigation controls, weekly meetings, and an exams table"
+              class="img-responsive"
+              decoding="async"
+              height="690"
+              loading="lazy"
+              src="assets/img/planner-calendar.png"
+              width="966"
+            >
+            <figcaption>
+              Example schedule alternative. Select a course block to open its section information
+              and editing actions.
+            </figcaption>
+          </figure>
+        </div>
+      </section>
+
+      <section class="guide-section section-tint" id="swap">
+        <div class="container">
+          <div class="section-heading">
+            <p class="step-label"><span>4</span> Fine-tune sections</p>
+            <h2>Keep what works and explore another combination</h2>
+            <p class="lead">
+              Select a course block to inspect it. Use <strong>Lock Course</strong> to keep that
+              course's selected sections while you browse other alternatives; unlock it when you
+              want the planner to vary those sections again.
+            </p>
+          </div>
+
+          <div class="row guide-row">
+            <div class="col-md-5">
+              <h3>Swap a complete section combination</h3>
+              <p>
+                <strong>Swap Section</strong> lets you compare complete lecture, discussion, and
+                lab combinations before changing your schedule.
+              </p>
+              <dl class="term-list">
+                <dt>Current</dt>
+                <dd>The combination already on your schedule.</dd>
+                <dt>Fits current schedule</dt>
+                <dd>The combination can be used without a reported time conflict.</dd>
+                <dt>Preview</dt>
+                <dd>Temporarily displays that combination on the calendar.</dd>
+                <dt>Use this section</dt>
+                <dd>Applies the previewed combination to the schedule.</dd>
+              </dl>
+              <p class="small-note">
+                Open-seat information is a snapshot. Previewing or using a combination does not
+                reserve it.
+              </p>
+            </div>
+            <div class="col-md-7">
+              <figure class="screenshot">
+                <img
+                  alt="Swap Section panel comparing the current course sections with other combinations"
+                  class="img-responsive"
+                  decoding="async"
+                  height="690"
+                  loading="lazy"
+                  src="assets/img/planner-swap.png"
+                  width="966"
+                >
+                <figcaption>
+                  Example section-combination preview. Availability may change before enrollment.
+                </figcaption>
+              </figure>
+            </div>
+          </div>
+
+          <div class="row guide-row detail-row">
+            <div class="col-md-5 col-md-push-7">
+              <h3>Check schedule details</h3>
+              <p>
+                Open <strong>Details</strong> to review each component's meeting and exam times,
+                rooms, professor, open and total seats, waitlist, and section ID. The view also
+                shows when the source data was last refreshed.
+              </p>
+              <p>
+                Missing or older information deserves a closer look in official enrollment tools
+                before you act.
+              </p>
+            </div>
+            <div class="col-md-7 col-md-pull-5">
+              <figure class="screenshot">
+                <img
+                  alt="Schedule Details view with meeting, professor, seat, waitlist, section ID, and freshness information"
+                  class="img-responsive"
+                  decoding="async"
+                  height="660"
+                  loading="lazy"
+                  src="assets/img/planner-details.png"
+                  width="966"
+                >
+                <figcaption>
+                  Example schedule details. Values shown in the image are illustrative and will
+                  change.
+                </figcaption>
+              </figure>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="guide-section" id="share">
+        <div class="container">
+          <div class="row guide-row">
+            <div class="col-md-5">
+              <p class="step-label"><span>5</span> Save, share, edit, and export</p>
+              <h2>Take your selected schedule with you</h2>
+              <p>
+                <strong>Save &amp; share</strong> creates a short link you can copy and revisit.
+                A shared schedule displays its own <strong>No conflicts</strong> or review state,
+                and <strong>Edit</strong> returns to the planner with the saved sections ready for
+                revision.
+              </p>
+              <p>
+                <strong>Add to Calendar</strong> can download an <code>.ics</code> file or open
+                Google Calendar, Apple Calendar, or Outlook. Exporting copies meeting information
+                to your calendar; it does not enroll you or keep course availability synchronized.
+              </p>
+            </div>
+            <div class="col-md-7">
+              <figure class="screenshot">
+                <video
+                  controls
+                  height="720"
+                  muted
+                  playsinline
+                  poster="assets/img/planner-share-poster.png"
+                  preload="none"
+                  width="966"
+                >
+                  <source src="assets/video/planner-share.mp4" type="video/mp4">
+                  Your browser cannot play this video. See the
+                  <a href="assets/img/planner-share-export.png">saved schedule screenshot</a>
+                  instead.
+                </video>
+                <figcaption>
+                  Video: a saved schedule with its review status and calendar-export menu. Course
+                  availability changes.
+                </figcaption>
+              </figure>
+            </div>
+          </div>
+
+          <aside aria-label="Enrollment reminder" class="planner-notice planner-notice-wide">
+            <span aria-hidden="true" class="notice-icon">i</span>
+            <div>
+              <h3 class="h4">Remember: Class Planner does not enroll you</h3>
+              <p>
+                You must enter your course and section selections manually in TSS during your
+                appointment time. Course availability and this schedule are not guaranteed.
+              </p>
+            </div>
+          </aside>
+        </div>
+      </section>
+
+      <section class="guide-section faq-section section-tint" id="faq">
+        <div class="container">
+          <div class="section-heading">
+            <p class="eyebrow">Frequently asked questions</p>
+            <h2>Know before you plan</h2>
+          </div>
+
+          <div class="row">
+            <div class="col-md-6">
+              <article class="faq-item">
+                <h3>Does Class Planner enroll me in classes?</h3>
+                <p>
+                  No. It creates a planning preview. Enter your final course and section
+                  selections manually in TSS during your appointment time.
+                </p>
+              </article>
+              <article class="faq-item">
+                <h3>Are seats or waitlist positions guaranteed?</h3>
+                <p>
+                  No. Availability is a snapshot and may change. Class Planner does not reserve a
+                  seat or waitlist position.
+                </p>
+              </article>
+              <article class="faq-item">
+                <h3>What should I do with a <q>Review</q> warning?</h3>
+                <p>
+                  Open the review items and inspect the affected meetings or data. Some warnings
+                  require a change; others simply call attention to information you should verify.
+                  See <a href="#compare">Compare and review options</a>.
+                </p>
+              </article>
+              <article class="faq-item">
+                <h3>What if a course has TBA or missing meeting information?</h3>
+                <p>
+                  The planner cannot fully evaluate information it does not have. Verify the
+                  course in official enrollment tools and leave room for the missing meeting
+                  before relying on the schedule.
+                </p>
+              </article>
+            </div>
+
+            <div class="col-md-6">
+              <article class="faq-item">
+                <h3>Can I change a saved schedule?</h3>
+                <p>
+                  Yes. Open the saved link and choose <strong>Edit</strong> to return to Class
+                  Planner with the saved sections available for revision.
+                </p>
+              </article>
+              <article class="faq-item">
+                <h3>Can I share a schedule?</h3>
+                <p>
+                  Yes. <strong>Save &amp; share</strong> creates a short link you can copy. Anyone
+                  with the link can view that saved schedule.
+                </p>
+              </article>
+              <article class="faq-item">
+                <h3>Can I add the schedule to my calendar?</h3>
+                <p>
+                  Yes. Use <strong>Add to Calendar</strong> for an <code>.ics</code> download,
+                  Google Calendar, Apple Calendar, or Outlook. The export is a copy, not a live
+                  enrollment or availability feed.
+                </p>
+              </article>
+              <article class="faq-item">
+                <h3>How many courses can I add?</h3>
+                <p>
+                  A plan can contain from 1 to 12 courses. See
+                  <a href="#build">Build your plan</a> to get started.
+                </p>
+              </article>
+            </div>
+          </div>
+
+          <div class="closing-cta">
+            <h2 class="h3">Ready to compare your options?</h2>
+            <p>Bring your course ideas and any times you already know you cannot attend.</p>
+            <a class="btn btn-primary" href="https://classplanner.apps.ucsd.edu/">
+              Open Class Planner
+              <span aria-hidden="true">→</span>
+            </a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-8">
+            <p>
+              <span>UC San Diego 9500 Gilman Dr. La Jolla, CA 92093 (858) 534-2230</span>
+              <br>
+              <span>
+                Copyright © <span class="footer-copyright-year">2026</span> Regents of the
+                University of California. All rights reserved.
+              </span>
+            </p>
+            <ul class="footer-links">
+              <li><a href="https://accessibility.ucsd.edu/">Accessibility</a></li>
+              <li><a href="https://ucsd.edu/about/privacy.html">Privacy</a></li>
+              <li><a href="https://ucsd.edu/about/terms-of-use.html">Terms of Use</a></li>
+            </ul>
+          </div>
+          <div class="col-sm-4">
+            <a href="https://ucsd.edu/">
+              <img
+                alt="UC San Diego homepage"
+                class="img-responsive footer-logo"
+                src="https://cdn.ucsd.edu/cms/decorator-5/styles/img/ucsd-footer-logo-white.png"
+              >
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <script src="https://cdn.ucsd.edu/cms/decorator-5/scripts/jquery.min.js"></script>
+      <script src="https://cdn.ucsd.edu/cms/decorator-5/scripts/bootstrap.min.js"></script>
+      <script src="https://www.ucsd.edu/common/_emergency-broadcast/message.js"></script>
+      <script src="https://cdn.ucsd.edu/cms/decorator-5/scripts/vendor.min.js"></script>
+      <script src="https://cdn.ucsd.edu/cms/decorator-5/scripts/base.min.js"></script>
+      <script src="assets/js/site.js"></script>
+      <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "Does Class Planner enroll me in classes?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "No. It creates a planning preview. Enter your final course and section selections manually in TSS during your appointment time."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Are seats or waitlist positions guaranteed?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "No. Availability is a snapshot and may change. Class Planner does not reserve a seat or waitlist position."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What should I do with a \"Review\" warning?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Open the review items and inspect the affected meetings or data. Some warnings require a change; others simply call attention to information you should verify."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What if a course has TBA or missing meeting information?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "The planner cannot fully evaluate information it does not have. Verify the course in official enrollment tools and leave room for the missing meeting before relying on the schedule."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Can I change a saved schedule?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes. Open the saved link and choose Edit to return to Class Planner with the saved sections available for revision."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Can I share a schedule?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes. Save & share creates a short link you can copy. Anyone with the link can view that saved schedule."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Can I add the schedule to my calendar?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes. Use Add to Calendar for an .ics download, Google Calendar, Apple Calendar, or Outlook. The export is a copy, not a live enrollment or availability feed."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How many courses can I add?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "A plan can contain from 1 to 12 courses."
+            }
+          }
+        ]
+      }
+      </script>
+    </footer>
+  </body>
+</html>
