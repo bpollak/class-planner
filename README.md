@@ -40,10 +40,10 @@ WCWP-010A. They contain no authenticated or student-specific information.
 | --- | ---: | --- |
 | `planner-search.png` | 520 × 520 | Course search and selected-course list (hero image; video fallback link) |
 | `planner-preferences.png` | 746 × 480 | Enrollment, goals, time limits, preferred windows, and commitments (video fallback link) |
-| `planner-calendar.png` | 966 × 690 | Alternative controls, weekly calendar, and exams |
-| `planner-swap.png` | 966 × 690 | Complete section-combination preview and selection |
+| `planner-calendar.png` | 930 × 674 | Alternative controls, weekly calendar, and exams |
+| `planner-swap.png` | 930 × 674 | Complete section-combination preview and selection |
 | `planner-details.png` | 966 × 660 | Meeting, seat, waitlist, section ID, exam, and freshness details |
-| `planner-share-export.png` | 966 × 690 | Saved schedule, enrollment notice, and calendar export (video fallback link) |
+| `planner-share-export.png` | 930 × 674 | Saved schedule, enrollment notice, and calendar export (video fallback link) |
 | `planner-build-poster.png` | 966 × 720 | Poster frame for `planner-build.mp4` |
 | `planner-preferences-poster.png` | 966 × 720 | Poster frame for `planner-preferences.mp4` |
 | `planner-share-poster.png` | 966 × 720 | Poster frame for `planner-share.mp4` |
