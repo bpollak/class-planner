@@ -60,12 +60,17 @@ button:focus,
 }
 
 .mobile-logo-wrap {
-  margin-top: 0.75rem;
+  margin: 0;
   max-width: 155px;
   padding: 0;
   position: absolute;
-  right: 30px;
-  top: 0;
+  right: 15px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.mobile-logo-wrap .header-logo {
+  margin: 0;
 }
 
 .decorator-script-hooks {
@@ -554,6 +559,22 @@ code {
     margin-top: 1.25rem;
   }
 
+  .section-heading {
+    text-align: left;
+  }
+
+  /* Dense captures stay readable on phones: pan sideways instead of
+     shrinking to fit. */
+  .screenshot-scroller {
+    -webkit-overflow-scrolling: touch;
+    overflow-x: auto;
+  }
+
+  .screenshot-scroller img {
+    max-width: none;
+    width: 760px;
+  }
+
   .detail-row {
     margin-top: 2.5rem;
     padding-top: 2.5rem;
@@ -571,7 +592,6 @@ code {
 @media (max-width: 420px) {
   .mobile-logo-wrap {
     max-width: 140px;
-    right: 30px;
   }
 
   .guide-hero h1 {
