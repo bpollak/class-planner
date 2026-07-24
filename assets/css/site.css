@@ -395,6 +395,10 @@ button:focus,
   margin-bottom: 0;
 }
 
+.personal-schedule-card {
+  margin: 1.5rem 0;
+}
+
 .screenshot-wide {
   padding: 0;
 }
