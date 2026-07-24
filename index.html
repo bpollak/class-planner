@@ -35,6 +35,29 @@
   </head>
 
   <body>
+    <!-- Off-canvas mobile navigation drawer (Decorator/Jasny pattern). -->
+    <div class="navmenu navmenu-default navmenu-fixed-left offcanvas" id="navmenu">
+      <button
+        aria-controls="navmenu"
+        class="navbar-toggle sr-only"
+        data-canvas="body"
+        data-target=".navmenu"
+        data-toggle="offcanvas"
+        type="button"
+      >
+        Close Nav
+      </button>
+      <ul class="nav navmenu-nav">
+        <li class="active"><a href="#overview">Overview</a></li>
+        <li><a href="#build">Build your plan</a></li>
+        <li><a href="#preferences">Preferences</a></li>
+        <li><a href="#compare">Compare</a></li>
+        <li><a href="#swap">Fine-tune</a></li>
+        <li><a href="#share">Save and share</a></li>
+        <li><a href="#faq">FAQ</a></li>
+      </ul>
+    </div>
+
     <header class="layout-header">
       <a class="sr-only skip-to-main" href="#main-content">Skip to main content</a>
       <div id="uc-emergency"></div>
@@ -58,11 +81,12 @@
 
         <div class="navbar-header">
           <button
-            aria-controls="navbar"
+            aria-controls="navmenu"
             aria-expanded="false"
             class="navbar-toggle collapsed"
-            data-target="#navbar"
-            data-toggle="collapse"
+            data-canvas="body"
+            data-target=".navmenu"
+            data-toggle="offcanvas"
             type="button"
           >
             <span class="sr-only">Toggle guide navigation</span>

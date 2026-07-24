@@ -620,6 +620,12 @@ code {
   .navbar-toggle {
     display: none;
   }
+
+  /* The horizontal navbar takes over at desktop widths; never render the
+     off-canvas drawer as static content there. */
+  .navmenu {
+    display: none !important;
+  }
 }
 
 @media (prefers-reduced-motion: reduce) {
