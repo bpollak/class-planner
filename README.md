@@ -32,9 +32,10 @@ page also works when opened from the local filesystem.
 
 ## Screenshot record
 
-Screenshots were captured from the public Class Planner on July 23, 2026. They
+Screenshots were captured from the public Class Planner on July 23–24, 2026. They
 show the FA26 term with the example courses DSC-030, BILD-001, CSE-011, and
-WCWP-010A. They contain no authenticated or student-specific information.
+WCWP-010A, plus an ANAR-111 example for historical evaluations. They contain no
+authenticated or student-specific information.
 
 | File | Dimensions | Workflow state |
 | --- | ---: | --- |
@@ -43,13 +44,16 @@ WCWP-010A. They contain no authenticated or student-specific information.
 | `planner-calendar.png` | 930 × 674 | Alternative controls, weekly calendar, and exams |
 | `planner-swap.png` | 930 × 674 | Complete section-combination preview and selection |
 | `planner-details.png` | 966 × 660 | Meeting, seat, waitlist, section ID, exam, and freshness details |
+| `planner-historical-evaluations.png` | 1238 × 915 | Historical recommendation, workload, grade, evaluation-count, and response-count summary |
 | `planner-share-export.png` | 930 × 674 | Saved schedule, enrollment notice, and calendar export (video fallback link) |
 | `planner-build-poster.png` | 966 × 720 | Poster frame for `planner-build.mp4` |
 | `planner-preferences-poster.png` | 966 × 720 | Poster frame for `planner-preferences.mp4` |
 | `planner-share-poster.png` | 966 × 720 | Poster frame for `planner-share.mp4` |
 
 The visible terms, courses, seats, waitlists, and timestamps are examples rather
-than permanent facts. All PNGs are palette-quantized (256 colors) for size.
+than permanent facts. The July 23 workflow PNGs are palette-quantized (256
+colors); the historical evaluation capture is downsampled to 1238 × 915 for
+legibility and size.
 
 ## Video record
 
@@ -78,10 +82,12 @@ it is added to `source-media/`, convert it the same way and embed it in the
 
 ## Sources reviewed
 
-Reviewed July 23, 2026:
+Reviewed July 23–24, 2026:
 
 - [Class Planner](https://classplanner.apps.ucsd.edu/)
 - UC San Diego Class Planner feature documentation supplied for this project
+- [UCSD CAPEs Data](https://www.kaggle.com/datasets/sanbornpnguyen/ucsdcapes)
+- [UC San Diego Student Evaluation of Teaching](https://set.ucsd.edu/index.html)
 - [Decorator 5](https://developer.ucsd.edu/design/decorator/index.html)
 - [UC San Diego Digital Accessibility Standards](https://accessibility.ucsd.edu/policies-standards/ucsd-accessibility-guidelines.html)
 
@@ -104,8 +110,8 @@ Before initial publication and at least once per academic term:
 
 ## Verification record
 
-Completed July 23, 2026 (re-verified after the typography rescale, video
-embeds, scrollspy, and image recompression):
+Completed July 23–24, 2026 (re-verified after the typography rescale, video
+embeds, scrollspy, image recompression, and historical evaluations section):
 
 - `html-validate` 10: no markup errors or warnings
 - axe-core 4.10.3, WCAG 2.0/2.1 A and AA rules: zero violations at desktop

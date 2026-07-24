@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta content="width=device-width, initial-scale=1" name="viewport">
     <meta
-      content="Learn how to build, compare, review, save, share, and export schedule options with UC San Diego Class Planner."
+      content="Learn how to build, compare, review historical course evaluations, save, share, and export schedule options with UC San Diego Class Planner."
       name="description"
     >
     <title>Class Planner Guide | UC San Diego</title>
@@ -13,7 +13,7 @@
     <link href="https://bpollak.github.io/class-planner/" rel="canonical">
     <meta content="Class Planner Guide | UC San Diego" property="og:title">
     <meta
-      content="Learn how to build, compare, review, save, share, and export schedule options with UC San Diego Class Planner."
+      content="Learn how to build, compare, review historical course evaluations, save, share, and export schedule options with UC San Diego Class Planner."
       property="og:description"
     >
     <meta content="website" property="og:type">
@@ -53,6 +53,7 @@
         <li><a href="#preferences">Preferences</a></li>
         <li><a href="#compare">Compare</a></li>
         <li><a href="#swap">Fine-tune</a></li>
+        <li><a href="#evaluations">Evaluations</a></li>
         <li><a href="#share">Save and share</a></li>
         <li><a href="#faq">FAQ</a></li>
       </ul>
@@ -115,6 +116,7 @@
             <li><a href="#preferences">Preferences</a></li>
             <li><a href="#compare">Compare</a></li>
             <li><a href="#swap">Fine-tune</a></li>
+            <li><a href="#evaluations">Evaluations</a></li>
             <li><a href="#share">Save and share</a></li>
             <li><a href="#faq">FAQ</a></li>
           </ul>
@@ -427,7 +429,72 @@
         </div>
       </section>
 
-      <section class="guide-section" id="share">
+      <section class="guide-section" id="evaluations">
+        <div class="container">
+          <div class="row guide-row">
+            <div class="col-md-5">
+              <p class="eyebrow">Historical course context</p>
+              <h2>Learn from past student evaluations</h2>
+              <p class="lead">
+                Select a course block and expand <strong>Historical Evaluations</strong> to see
+                aggregated results from earlier offerings alongside the section details.
+              </p>
+              <ul class="feature-list">
+                <li>
+                  <strong>Recommend course</strong> shows the percentage of respondents who
+                  recommended the course.
+                </li>
+                <li>
+                  <strong>Weekly workload</strong> summarizes the average hours respondents
+                  reported spending each week.
+                </li>
+                <li>
+                  <strong>Average grade received</strong> presents the historical average as a
+                  letter grade and GPA.
+                </li>
+              </ul>
+              <p>
+                Check the displayed date range, number of evaluations, and student response count
+                before comparing results. These historical aggregates are another planning signal,
+                not a prediction of your experience or grade.
+              </p>
+              <p class="small-note">
+                Historical results may not reflect the current section, instructor, course format,
+                assignments, or grading. CAPEs ended after Spring 2023 and were replaced by
+                <a href="https://set.ucsd.edu/index.html">Student Evaluation of Teaching (SET)</a>.
+                The historical source is the
+                <a href="https://www.kaggle.com/datasets/sanbornpnguyen/ucsdcapes">
+                  UCSD CAPEs Data dataset on Kaggle</a>.
+              </p>
+            </div>
+            <div class="col-md-7">
+              <figure class="screenshot">
+                <section
+                  aria-label="Historical Evaluations screenshot, scrollable"
+                  class="screenshot-scroller"
+                  tabindex="0"
+                >
+                  <img
+                    alt="Historical Evaluations panel for ANAR 111 showing recommendation, weekly workload, average grade, date range, evaluation count, and student response count"
+                    class="img-responsive"
+                    decoding="async"
+                    height="915"
+                    loading="lazy"
+                    src="assets/img/planner-historical-evaluations.png"
+                    width="1238"
+                  >
+                </section>
+                <figcaption>
+                  Example historical evaluation summary. Select the panel to expand or collapse
+                  the supporting details.
+                </figcaption>
+              </figure>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="guide-section section-tint" id="share">
         <div class="container">
           <div class="row guide-row">
             <div class="col-md-5">
@@ -482,7 +549,7 @@
         </div>
       </section>
 
-      <section class="guide-section faq-section section-tint" id="faq">
+      <section class="guide-section faq-section" id="faq">
         <div class="container">
           <div class="section-heading">
             <p class="eyebrow">Frequently asked questions</p>
@@ -524,6 +591,15 @@
             </div>
 
             <div class="col-md-6">
+              <article class="faq-item">
+                <h3>How should I use Historical Evaluations?</h3>
+                <p>
+                  Treat the recommendation, workload, and grade summaries as historical context.
+                  Check the date range and response count, and remember that the current section,
+                  instructor, course format, and grading may differ. See
+                  <a href="#evaluations">Historical course context</a>.
+                </p>
+              </article>
               <article class="faq-item">
                 <h3>Can I change a saved schedule?</h3>
                 <p>
@@ -639,6 +715,14 @@
             "acceptedAnswer": {
               "@type": "Answer",
               "text": "The planner cannot fully evaluate information it does not have. Verify the course in official enrollment tools and leave room for the missing meeting before relying on the schedule."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How should I use Historical Evaluations?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Treat the recommendation, workload, and grade summaries as historical context. Check the date range and response count, and remember that the current section, instructor, course format, and grading may differ."
             }
           },
           {
