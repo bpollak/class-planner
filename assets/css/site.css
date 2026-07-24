@@ -84,6 +84,14 @@ button:focus,
   min-height: 44px;
 }
 
+/* Keep the drawer's visually-hidden Close button out of normal flow;
+   Bootstrap's .navbar-toggle otherwise floats it into the first menu
+   rows and indents their text. */
+.navmenu > .navbar-toggle {
+  float: none;
+  position: absolute;
+}
+
 .navbar-toggle .mobile-nav-bars {
   display: inline-block;
   width: 22px;
