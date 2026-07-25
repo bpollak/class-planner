@@ -26,12 +26,31 @@
         var href = this.getAttribute("href");
         var done = false;
         var go = function () {
+          var target;
+
           if (done) {
             return;
           }
+
           done = true;
           $menuToggle.attr("aria-expanded", "false");
-          window.location.hash = href;
+          target = document.querySelector(href);
+
+          if (!target) {
+            window.location.hash = href;
+            return;
+          }
+
+          // Update the address without relying on a hash change to perform the
+          // scroll. Setting the same hash twice does not reliably scroll again
+          // in every mobile browser.
+          if (window.location.hash !== href) {
+            window.history.pushState(null, "", href);
+          }
+
+          window.requestAnimationFrame(function () {
+            target.scrollIntoView();
+          });
         };
 
         event.preventDefault();
