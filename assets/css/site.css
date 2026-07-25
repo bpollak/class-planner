@@ -182,6 +182,23 @@ button:focus,
   max-width: 100%;
 }
 
+.hero-shot-detailed {
+  aspect-ratio: 1 / 1;
+  border-radius: 8px;
+  box-shadow: 0 20px 50px rgba(11, 21, 38, 0.45);
+  overflow: hidden;
+}
+
+.hero-shot-detailed img {
+  border-radius: 0;
+  box-shadow: none;
+  height: 100%;
+  max-width: none;
+  object-fit: cover;
+  object-position: left top;
+  width: 100%;
+}
+
 .planner-notice {
   align-items: flex-start;
   background: #fff;
@@ -339,6 +356,29 @@ button:focus,
   height: auto;
   margin: 0 auto;
   max-width: 100%;
+}
+
+.screenshot-frame {
+  border: 1px solid var(--guide-line);
+  border-radius: 12px;
+  box-shadow: 0 16px 40px rgba(24, 43, 73, 0.14);
+  overflow: hidden;
+}
+
+.screenshot-zoom .screenshot-frame {
+  aspect-ratio: 897 / 710;
+}
+
+.screenshot-zoom img {
+  border: 0;
+  border-radius: 0;
+  box-shadow: none;
+  height: 100%;
+  max-width: none;
+  object-fit: cover;
+  transform: scale(1.3);
+  transform-origin: center 47%;
+  width: 100%;
 }
 
 /* The source recordings have ~12px black-cornered frames baked in; clipping
