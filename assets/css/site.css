@@ -481,6 +481,42 @@ button:focus,
   margin-top: 3rem;
 }
 
+.release-notes-row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.release-notes-row > div {
+  display: flex;
+}
+
+.release-note {
+  background: #fff;
+  border-top: 5px solid var(--ucsd-blue);
+  box-shadow: 0 12px 30px rgba(24, 43, 73, 0.1);
+  padding: 1.5rem;
+  width: 100%;
+}
+
+.release-note time {
+  color: var(--ucsd-blue);
+  display: block;
+  font-size: 0.875rem;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  margin-bottom: 0.625rem;
+  text-transform: uppercase;
+}
+
+.release-note h3 {
+  margin-top: 0;
+}
+
+.release-note ul {
+  margin-bottom: 0;
+  padding-left: 1.25rem;
+}
+
 .faq-item {
   border-top: 1px solid var(--guide-line);
   padding: 1.25rem 0;
@@ -545,6 +581,15 @@ code {
 
   .planner-notice {
     margin-top: 1.875rem;
+  }
+
+  .release-notes-row > div {
+    display: block;
+    margin-bottom: 1.5rem;
+  }
+
+  .release-notes-row > div:last-child {
+    margin-bottom: 0;
   }
 
   .hero-shot {
