@@ -1,8 +1,8 @@
 # UC San Diego Class Planner Student Guide
 
 A static, single-page guide to the public UC San Diego Class Planner. It includes
-dated release notes for changes to the guide. It uses the Decorator 5 shell and
-has no backend, package manager, or build step.
+release notes for the app. It uses the Decorator 5 shell and has no backend,
+package manager, or build step.
 
 ## Run locally
 

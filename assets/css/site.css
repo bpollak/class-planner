@@ -498,7 +498,8 @@ button:focus,
   width: 100%;
 }
 
-.release-note time {
+.release-note time,
+.release-note .release-date {
   color: var(--ucsd-blue);
   display: block;
   font-size: 0.875rem;
