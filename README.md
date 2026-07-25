@@ -22,8 +22,8 @@ Then visit `http://127.0.0.1:8080/`.
 - `assets/js/site.js` — closes the expanded mobile navigation after an in-page
   selection and enables Bootstrap scrollspy for the section navigation
 - `assets/img/` — sanitized workflow screenshots and video poster frames
-- `assets/video/` — silent MP4 workflow recordings (converted from the
-  Confluence source GIFs)
+- `assets/video/` — older silent workflow recordings retained for reference;
+  the page uses current still images because the controls have changed
 - `source-media/` — original screen-recording GIFs (25–45 MB each). Archival
   source only; do **not** deploy this directory.
 
@@ -32,31 +32,31 @@ page also works when opened from the local filesystem.
 
 ## Screenshot record
 
-Screenshots were captured from the public Class Planner on July 23, 2026. They
-show the FA26 term with the example courses DSC-030, BILD-001, CSE-011, and
-WCWP-010A. They contain no authenticated or student-specific information.
+Screenshots were captured from the public Class Planner on July 25, 2026. They
+show the FA26 term with the example courses CSE-011 and DSC-030. The schedule
+details image is an older public example. The images contain no authenticated
+or student-specific information.
 
 | File | Dimensions | Workflow state |
 | --- | ---: | --- |
-| `planner-search.png` | 520 × 520 | Course search and selected-course list (hero image; video fallback link) |
-| `planner-preferences.png` | 746 × 480 | Enrollment, goals, time limits, preferred windows, and commitments (video fallback link) |
-| `planner-calendar.png` | 930 × 674 | Alternative controls, weekly calendar, and exams |
-| `planner-swap.png` | 930 × 674 | Complete section-combination preview and selection |
+| `planner-search.png` | 640 × 640 | Course selection (square hero crop) |
+| `planner-course-selection.png` | 897 × 710 | Added courses with section, seat, and waitlist counts |
+| `planner-preferences.png` | 897 × 710 | Preferences, a preferred time, and a weekly commitment |
+| `planner-calendar.png` | 897 × 710 | Previous and Next controls, weekly calendar, and exams |
+| `planner-swap.png` | 897 × 710 | Current and alternate section groups |
 | `planner-details.png` | 966 × 660 | Meeting, seat, waitlist, section ID, exam, and freshness details |
-| `planner-share-export.png` | 930 × 674 | Saved schedule, enrollment notice, and calendar export (video fallback link) |
-| `planner-build-poster.png` | 966 × 720 | Poster frame for `planner-build.mp4` |
-| `planner-preferences-poster.png` | 966 × 720 | Poster frame for `planner-preferences.mp4` |
-| `planner-share-poster.png` | 966 × 720 | Poster frame for `planner-share.mp4` |
+| `planner-tss-booking.png` | 1142 × 710 | TSS booking checklist and course links |
+| `planner-share-export.png` | 1142 × 710 | Saved schedule with calendar and TSS controls |
 
 The visible terms, courses, seats, waitlists, and timestamps are examples rather
 than permanent facts. All PNGs are palette-quantized (256 colors) for size.
 
-## Video record
+## Older video record
 
 Videos were converted July 23, 2026 from the screen-recording GIFs attached to
-the Class Planner feature documentation (originals in `source-media/`). All are
-966 × 720, 20 fps, silent, and embedded click-to-play with `preload="none"` and
-a poster frame extracted from the first frame of each recording:
+the Class Planner feature documentation (originals in `source-media/`). They are
+retained for reference but are no longer embedded because they predate the
+current Preferences, Finish & book, and TSS controls.
 
 | File | Duration | Workflow |
 | --- | ---: | --- |
@@ -78,7 +78,7 @@ it is added to `source-media/`, convert it the same way and embed it in the
 
 ## Sources reviewed
 
-Reviewed July 23, 2026:
+Reviewed July 25, 2026:
 
 - [Class Planner](https://classplanner.apps.ucsd.edu/)
 - UC San Diego Class Planner feature documentation supplied for this project
@@ -104,9 +104,8 @@ Before initial publication and at least once per academic term:
 
 ## Verification record
 
-Completed July 23–24, 2026 (re-verified after the typography rescale, video
-embeds, scrollspy, image recompression, ratings-section removal, and
-plain-language review):
+Completed July 23–25, 2026 (re-verified after the current workflow images, TSS
+booking guidance, ratings-section removal, and plain-language review):
 
 - `html-validate` 10: no markup errors or warnings
 - axe-core 4.10.3, WCAG 2.0/2.1 A and AA rules: zero violations at desktop
@@ -114,9 +113,7 @@ plain-language review):
 - Responsive browser checks: no document-level horizontal overflow at desktop,
   390 px, or 320 px
 - Typography: body copy 17 px; all sub-headings render larger than body text
-- Videos: all three play on demand (`preload="none"`), show their poster frame
-  first, and expose native controls; no autoplay, so reduced-motion users see
-  only the poster
+- Media: the guide uses current still images and has no autoplaying media
 - Mobile navigation: expands accessibly, follows in-page links, and closes after
   selection; scrollspy moves the active state and `aria-current` while scrolling
 - Keyboard focus: the skip link receives a visible 3 px gold outline; navigation
@@ -133,7 +130,9 @@ VoiceOver review should remain part of the publication checklist.
 ## Content guardrails
 
 - Class Planner is a planning preview, not enrollment or a reservation.
-- Students must manually enter final course and section selections in TSS.
+- Class Planner can open the matching course page in TSS. Students must still
+  sign in, check their planned sections, and complete booking.
+- `Opened in TSS` tracks an opened link, not a completed enrollment.
 - Course availability and schedule suitability are not guaranteed.
 - Do not present seats, waitlists, available terms, or freshness timestamps as
   permanent facts.
