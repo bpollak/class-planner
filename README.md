@@ -42,7 +42,8 @@ or student-specific information.
 | `planner-search.png` | 640 × 640 | Retained alternate course-selection crop |
 | `planner-course-selection.png` | 897 × 710 | Added courses with section, seat, and waitlist counts |
 | `planner-preferences.png` | 897 × 710 | Preferences, a preferred time, and a weekly commitment |
-| `planner-calendar.png` | 897 × 710 | Previous and Next controls, weekly calendar, exams, and hero image |
+| `planner-calendar.png` | 897 × 710 | Previous and Next controls, weekly calendar, and exams |
+| `planner-hero-four-course.png` | 1440 × 900 | Four-course schedule used in the hero |
 | `planner-swap.png` | 897 × 710 | Current and alternate section groups |
 | `planner-details.png` | 966 × 660 | Meeting, seat, waitlist, section ID, exam, and freshness details |
 | `planner-tss-booking.png` | 1142 × 710 | TSS booking checklist and course links |
