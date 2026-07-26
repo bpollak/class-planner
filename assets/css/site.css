@@ -661,16 +661,19 @@ code {
     text-align: left;
   }
 
-  /* Dense captures stay readable on phones: pan sideways instead of
-     shrinking to fit. */
+  /* Keep every screenshot fully inside the phone viewport. */
   .screenshot-scroller {
-    -webkit-overflow-scrolling: touch;
-    overflow-x: auto;
+    overflow: hidden;
+    width: 100%;
   }
 
   .screenshot-scroller img {
-    max-width: none;
-    width: 760px;
+    max-width: 100%;
+    width: 100%;
+  }
+
+  .screenshot-zoom img {
+    transform: none;
   }
 
   .detail-row {
