@@ -145,7 +145,7 @@ The observed links opened the matching TSS course page. The planner told the stu
 | Final section is **Save, share, and add to your calendar** | Eligible plans use **Finish & book** and then show TSS links | Rename and expand the final section |
 | Guide says students must enter final choices in TSS | Class Planner now opens the matching TSS course page | Explain the new handoff and the remaining booking steps |
 | Only **Save & share** is documented | The button can be **Finish & book** or **Save & share** | Explain why the label may differ |
-| No TSS checklist image or video | Saved plans have a course-by-course booking checklist | Add a current screenshot and update the final video |
+| No TSS deep-link demonstration | Saved plans have a course-by-course booking checklist | Add a current video of the handoff |
 | FAQ says planning is separate from TSS | The systems are now connected by course links | Keep the “does not enroll” warning, but describe the links |
 | README says all selections must be entered manually | Course pages can now be opened directly | Revise the verified behavior and limitations |
 | Existing share/export media predates the booking flow | Saved page now includes **Book in TSS** | Replace the old media |
@@ -279,10 +279,11 @@ Capture a fresh, public-data-only example from one clean plan.
 
 - `assets/img/planner-finish-book.png`
   - Shows the **Finish & book** action on a schedule with no conflicts.
-- `assets/img/planner-tss-booking.png`
-  - Shows the in-app **Book your courses in TSS** checklist.
-- Optional `assets/video/planner-finish-book.mp4`
-  - Shows finish, return link, opening one TSS course, returning, and calendar options.
+- `assets/video/planner-tss-deep-link.mp4`
+  - Shows **Finish & book**, the in-app checklist, **Open in TSS**, and the
+    matching TSS course page.
+- `assets/img/planner-tss-deep-link-poster.jpg`
+  - Shows the in-app checklist before the video starts.
 
 Do not show a signed-in TSS page, student identifiers, browser account details, or private enrollment data. The in-app checklist is enough to explain the handoff.
 
@@ -326,9 +327,9 @@ These are app suggestions, not required website edits.
   - Review date
 - `assets/img/*`
   - Replace the outdated final-step images
-  - Add the TSS checklist image
+  - Add the TSS deep-link video poster
 - `assets/video/*`
-  - Replace the outdated final-step video
+  - Add the current TSS deep-link demonstration
 - `assets/css/site.css`
   - Only if needed for the new checklist figure or a six-item navigation row
 - `assets/js/site.js`

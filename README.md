@@ -23,8 +23,8 @@ Then visit `http://127.0.0.1:8080/`.
 - `assets/js/site.js` — closes the expanded mobile navigation after an in-page
   selection and enables Bootstrap scrollspy for the section navigation
 - `assets/img/` — sanitized workflow screenshots and video poster frames
-- `assets/video/` — older silent workflow recordings retained for reference;
-  the page uses current still images because the controls have changed
+- `assets/video/` — the current TSS deep-link demonstration and older silent
+  workflow recordings retained for reference
 - `source-media/` — original screen-recording GIFs (25–45 MB each). Archival
   source only; do **not** deploy this directory.
 
@@ -47,11 +47,17 @@ or student-specific information.
 | `planner-hero-build-schedule.png` | 520 × 520 | Build your schedule screen used in the hero |
 | `planner-swap.png` | 897 × 710 | Current and alternate section groups |
 | `planner-details.png` | 966 × 660 | Meeting, seat, waitlist, section ID, exam, and freshness details |
-| `planner-tss-booking.png` | 1142 × 710 | TSS booking checklist and course links |
+| `planner-tss-deep-link-poster.jpg` | 960 × 838 | Poster for the TSS deep-link demonstration |
 | `planner-share-export.png` | 1142 × 710 | Saved schedule with calendar and TSS controls |
 
 The visible terms, courses, seats, waitlists, and timestamps are examples rather
 than permanent facts. All PNGs are palette-quantized (256 colors) for size.
+
+## Current video
+
+| File | Duration | Workflow |
+| --- | ---: | --- |
+| `planner-tss-deep-link.mp4` | 23.8 s | Finish & book, Open in TSS, and the matching TSS course page |
 
 ## Older video record
 
