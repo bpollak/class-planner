@@ -33,20 +33,23 @@ page also works when opened from the local filesystem.
 
 ## Screenshot record
 
-Screenshots were captured from the public Class Planner on July 25, 2026. They
-show the FA26 term with the example courses CSE-011 and DSC-030. The schedule
-details image is an older public example. The images contain no authenticated
-or student-specific information.
+Most screenshots were captured from the public Class Planner on July 25, 2026.
+The section-preview and campus-map images were captured from the July 26, 2026
+release walkthrough supplied by the app team. The images contain no
+authenticated or student-specific information.
 
 | File | Dimensions | Workflow state |
 | --- | ---: | --- |
 | `planner-search.png` | 640 × 640 | Retained alternate course-selection crop |
 | `planner-course-selection.png` | 897 × 710 | Added courses with section, seat, and waitlist counts |
+| `planner-section-preview.jpg` | 1100 × 706 | Expanded section details in course search |
 | `planner-preferences.png` | 897 × 710 | Preferences, a preferred time, and a weekly commitment |
 | `planner-calendar.png` | 897 × 710 | Previous and Next controls, weekly calendar, and exams |
 | `planner-hero-build-schedule.png` | 520 × 520 | Build your schedule screen used in the hero |
 | `planner-swap.png` | 897 × 710 | Current and alternate section groups |
 | `planner-details.png` | 966 × 660 | Meeting, seat, waitlist, section ID, exam, and freshness details |
+| `planner-campus-map.jpg` | 1400 × 944 | Campus routes and walking estimates |
+| `planner-campus-map-mobile.jpg` | 720 × 1088 | Mobile crop of walking estimates and schedule warnings |
 | `planner-tss-deep-link-poster.jpg` | 960 × 838 | Poster for the TSS deep-link demonstration |
 | `planner-share-export.png` | 1142 × 710 | Saved schedule with calendar and TSS controls |
 
@@ -86,9 +89,10 @@ it is added to `source-media/`, convert it the same way and embed it in the
 
 ## Sources reviewed
 
-Reviewed July 25, 2026:
+Reviewed July 26, 2026:
 
 - [Class Planner](https://classplanner.apps.ucsd.edu/)
+- July 26 Class Planner release walkthrough supplied by the app team
 - UC San Diego Class Planner feature documentation supplied for this project
 - [Decorator 5](https://developer.ucsd.edu/design/decorator/index.html)
 - [UC San Diego Digital Accessibility Standards](https://accessibility.ucsd.edu/policies-standards/ucsd-accessibility-guidelines.html)
@@ -112,14 +116,17 @@ Before initial publication and at least once per academic term:
 
 ## Verification record
 
-Completed July 23–25, 2026 (re-verified after the current workflow images, TSS
-booking guidance, ratings-section removal, and plain-language review):
+Completed July 23–26, 2026 (re-verified after the current workflow images,
+campus-map guidance, TSS booking guidance, ratings-section removal, and
+plain-language review):
 
-- `html-validate` 10: no markup errors or warnings
-- axe-core 4.10.3, WCAG 2.0/2.1 A and AA rules: zero violations at desktop
-  and 390 px mobile viewport sizes
+- `html-validate` 11.5.6: no markup errors or warnings
+- axe-core 4.12.1, WCAG 2.0/2.1 A and AA rules: zero violations at desktop,
+  390 px, and 320 px viewport sizes
 - Responsive browser checks: no document-level horizontal overflow at desktop,
   390 px, or 320 px
+- Responsive media: desktop uses the full campus map; phone widths use a
+  readable crop of the walking-time list
 - Typography: body copy 17 px; all sub-headings render larger than body text
 - Media: the guide uses current still images and has no autoplaying media
 - Mobile navigation: expands accessibly, follows in-page links, and closes after

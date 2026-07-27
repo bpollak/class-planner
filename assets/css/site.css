@@ -464,6 +464,14 @@ button:focus,
   margin: 1.5rem 0;
 }
 
+.map-feature-row {
+  scroll-margin-top: 1.5rem;
+}
+
+.map-feature-row .screenshot picture {
+  display: block;
+}
+
 .screenshot-wide {
   padding: 0;
 }
@@ -513,6 +521,14 @@ button:focus,
 
 .release-notes-row > div {
   display: flex;
+}
+
+.release-note-latest {
+  margin-bottom: 1.5rem;
+}
+
+.release-note-latest .release-note {
+  border-top-color: var(--ucsd-yellow);
 }
 
 .release-note {

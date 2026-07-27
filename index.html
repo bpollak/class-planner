@@ -31,7 +31,7 @@
 
     <link href="https://cdn.ucsd.edu/cms/decorator-5/styles/bootstrap.min.css" rel="stylesheet">
     <link href="https://cdn.ucsd.edu/cms/decorator-5/styles/base.min.css" rel="stylesheet">
-    <link href="assets/css/site.css?v=9" rel="stylesheet">
+    <link href="assets/css/site.css?v=10" rel="stylesheet">
   </head>
 
   <body>
@@ -195,8 +195,8 @@
               </p>
               <ul class="feature-list">
                 <li>
-                  Results show section counts, open seats, and waitlist spots when that
-                  information is known.
+                  Open <strong>View section details</strong> to compare instructors, meeting
+                  times, rooms, related labs, and current open seats before you add a course.
                 </li>
                 <li>Add 1 to 12 courses.</li>
                 <li>
@@ -205,20 +205,19 @@
               </ul>
             </div>
             <div class="col-md-7">
-              <figure class="screenshot screenshot-zoom">
-                <div class="screenshot-frame">
-                  <img
-                    alt="Class Planner with two courses added and current section, seat, and waitlist counts"
-                    class="img-responsive"
-                    decoding="async"
-                    height="710"
-                    loading="lazy"
-                    src="assets/img/planner-course-selection.png"
-                    width="897"
-                  >
-                </div>
+              <figure class="screenshot">
+                <img
+                  alt="Course search with expanded section details showing instructors, meeting times, rooms, related labs, and open seats"
+                  class="img-responsive"
+                  decoding="async"
+                  height="706"
+                  loading="lazy"
+                  src="assets/img/planner-section-preview.jpg"
+                  width="1100"
+                >
                 <figcaption>
-                  Add courses before you build a schedule. Courses and seat counts can change.
+                  Review the available sections before you add a course. The information shown is
+                  only an example and will change.
                 </figcaption>
               </figure>
             </div>
@@ -299,22 +298,35 @@
           </div>
 
           <div class="row compare-notes">
-            <div class="col-sm-6">
+            <div class="col-sm-4">
               <div class="info-card">
                 <h3 class="h4">Read the full calendar</h3>
                 <p>
-                  The calendar shows every scheduled class meeting. Exams are in a separate table
-                  below it. Check both before you choose.
+                  The calendar shows every class meeting. Finals Week appears below it, so check
+                  both before you choose.
                 </p>
               </div>
             </div>
-            <div class="col-sm-6">
+            <div class="col-sm-4">
+              <div class="info-card">
+                <h3 class="h4">Choose a schedule view</h3>
+                <p>
+                  Use <strong>Calendar</strong> for your week, <strong>Details</strong> for course
+                  information, and <strong>Map</strong> for the route between classes.
+                </p>
+              </div>
+            </div>
+            <div class="col-sm-4">
               <div class="info-card">
                 <h3 class="h4">Check the review status</h3>
                 <p>
                   <strong>No conflicts</strong> means no review items were reported.
                 </p>
                 <p>Review items apply to the schedule that is on screen.</p>
+                <p>
+                  If a schedule is marked <strong>Best-effort</strong>, review it before booking.
+                  You can keep editing or continue after you have checked it.
+                </p>
               </div>
             </div>
           </div>
@@ -335,6 +347,49 @@
               Example schedule. Select a course block to see details and change sections.
             </figcaption>
           </figure>
+
+          <div class="row guide-row detail-row map-feature-row" id="map">
+            <div class="col-md-5">
+              <p class="eyebrow">New map view</p>
+              <h3>Know if you can make it across campus</h3>
+              <p>
+                Switch to <strong>Map</strong> to see each day’s classes in order. Class Planner
+                shows the route, estimated walking time, and distance between classes.
+              </p>
+              <ul class="feature-list">
+                <li>Choose a day to see its route and class stops.</li>
+                <li>Check how much time you have between classes.</li>
+                <li>See a warning when the gap is tight or classes overlap.</li>
+              </ul>
+              <p class="small-note">
+                Walking times are estimates. Leave extra time when you need it.
+              </p>
+            </div>
+            <div class="col-md-7">
+              <figure class="screenshot">
+                <picture>
+                  <source
+                    height="1088"
+                    media="(max-width: 767px)"
+                    srcset="assets/img/planner-campus-map-mobile.jpg"
+                    width="720"
+                  >
+                  <img
+                    alt="Campus map with a route between classes, walking estimates, and warnings for a tight walk and overlapping classes"
+                    class="img-responsive"
+                    decoding="async"
+                    height="944"
+                    loading="lazy"
+                    src="assets/img/planner-campus-map.jpg"
+                    width="1400"
+                  >
+                </picture>
+                <figcaption>
+                  Example route. Walking times are estimates, and schedule information can change.
+                </figcaption>
+              </figure>
+            </div>
+          </div>
         </div>
       </section>
 
@@ -535,6 +590,26 @@
           </div>
 
           <div class="row release-notes-row">
+            <div class="col-sm-12 release-note-latest">
+              <article class="release-note">
+                <time datetime="2026-07-26">July 26, 2026</time>
+                <h3>Campus map and expanded section details</h3>
+                <ul>
+                  <li>
+                    Review instructors, meeting times, rooms, related labs, and open seats while
+                    you search for courses.
+                  </li>
+                  <li>
+                    Switch between <strong>Calendar</strong>, <strong>Details</strong>, and
+                    <strong>Map</strong> when you compare a schedule.
+                  </li>
+                  <li>
+                    Use the map to check estimated walking times and see warnings for tight gaps
+                    or overlapping classes.
+                  </li>
+                </ul>
+              </article>
+            </div>
             <div class="col-sm-6">
               <article class="release-note">
                 <time datetime="2026-07-24">July 24, 2026</time>
