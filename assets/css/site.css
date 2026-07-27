@@ -169,6 +169,31 @@ button:focus,
   white-space: normal;
 }
 
+.planner-launch-button {
+  background: var(--ucsd-yellow);
+  border: 2px solid var(--ucsd-yellow);
+  box-shadow: 0 8px 22px rgba(11, 21, 38, 0.35);
+  color: var(--ucsd-navy) !important;
+  font-size: 1.0625rem;
+  font-weight: 800;
+  letter-spacing: 0.04em;
+  padding: 0.875rem 1.5rem;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.planner-launch-button:hover,
+.planner-launch-button:focus {
+  background: #fff;
+  border-color: #fff;
+  color: var(--ucsd-navy) !important;
+  text-decoration: none;
+}
+
+.planner-launch-button span {
+  margin-left: 0.35rem;
+}
+
 .hero-shot {
   margin: 0;
 }
