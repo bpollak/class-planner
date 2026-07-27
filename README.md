@@ -46,7 +46,7 @@ authenticated or student-specific information.
 | `planner-preferences.png` | 897 × 710 | Preferences, a preferred time, and a weekly commitment |
 | `planner-calendar.png` | 897 × 710 | Previous and Next controls, weekly calendar, and exams |
 | `planner-hero-build-schedule.png` | 520 × 520 | Build your schedule screen used in the hero |
-| `planner-swap.png` | 897 × 710 | Current and alternate section groups |
+| `planner-swap-clean.jpg` | 840 × 900 | Current and alternate section groups |
 | `planner-details.png` | 966 × 660 | Meeting, seat, waitlist, section ID, exam, and freshness details |
 | `planner-campus-map.jpg` | 1400 × 944 | Campus routes and walking estimates |
 | `planner-campus-map-mobile.jpg` | 720 × 1088 | Mobile crop of walking estimates and schedule warnings |
