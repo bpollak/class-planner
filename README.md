@@ -35,7 +35,7 @@ page also works when opened from the local filesystem.
 
 Most screenshots were captured from the public Class Planner on July 25, 2026.
 The section-preview and campus-map images were captured from the July 26, 2026
-release walkthrough supplied by the app team. The images contain no
+feature walkthrough supplied by the app team. The images contain no
 authenticated or student-specific information.
 
 | File | Dimensions | Workflow state |
@@ -92,7 +92,7 @@ it is added to `source-media/`, convert it the same way and embed it in the
 Reviewed July 26, 2026:
 
 - [Class Planner](https://classplanner.apps.ucsd.edu/)
-- July 26 Class Planner release walkthrough supplied by the app team
+- July 26 Class Planner feature walkthrough supplied by the app team
 - UC San Diego Class Planner feature documentation supplied for this project
 - [Decorator 5](https://developer.ucsd.edu/design/decorator/index.html)
 - [UC San Diego Digital Accessibility Standards](https://accessibility.ucsd.edu/policies-standards/ucsd-accessibility-guidelines.html)
