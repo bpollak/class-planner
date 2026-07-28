@@ -100,7 +100,7 @@ The **Swap Section** panel showed:
 - **Preview**
 - **Use this section**
 
-The live planner still contains historical course-evaluation data. The website should continue to omit that feature because the user explicitly removed the ratings section from the guide.
+The live planner contains historical course-evaluation data, but the website does not document that feature.
 
 ### Finish, save, share, and calendar
 
@@ -364,7 +364,7 @@ These are app suggestions, not required website edits.
 2. Check the FAQ JSON-LD against the visible FAQ.
 3. Check desktop widths and 390 px and 320 px mobile widths.
 4. Check keyboard navigation, focus, media controls, and reduced-motion behavior.
-5. Confirm there are no faculty-ratings references in the website.
+5. Confirm there are no course-evaluation or instructor-rating references on the website.
 6. Publish from `main`.
 7. Verify both:
    - <https://bpollak.github.io/class-planner/>
@@ -380,7 +380,7 @@ These are app suggestions, not required website edits.
 - The guide never says that a TSS link enrolls the student or reserves a seat.
 - Personal commitments remain easy to find.
 - The approved short review-status wording remains intact.
-- Faculty ratings are not documented.
+- Historical course-evaluation summaries and instructor ratings are not documented.
 - Screenshots and videos match the current live interface.
 - Visible FAQ text and FAQ JSON-LD match.
 - The page passes HTML, accessibility, responsive, and live-link checks.

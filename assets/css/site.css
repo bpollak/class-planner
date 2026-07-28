@@ -133,6 +133,7 @@ button:focus,
   font-size: clamp(2.25rem, 5vw, 3.875rem);
   line-height: 1.06;
   margin-bottom: 1.25rem;
+  margin-top: 0;
   max-width: 850px;
 }
 
@@ -208,7 +209,7 @@ button:focus,
 }
 
 .hero-shot-detailed {
-  aspect-ratio: 1 / 1;
+  aspect-ratio: 13 / 9;
   border-radius: 8px;
   box-shadow: 0 20px 50px rgba(11, 21, 38, 0.45);
   overflow: hidden;

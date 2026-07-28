@@ -17,6 +17,8 @@ Then visit `http://127.0.0.1:8080/`.
 ## Files
 
 - `index.html` — guide content and UC San Diego page shell
+- `CLASS_PLANNER_SITE_UPDATE_PLAN.md` — implemented content and workflow update
+  plan based on the current student journey
 - `assets/css/site.css` — guide layout and responsive presentation (rem sizes
   are authored against the browser-default 16px root; Decorator does not
   change the root font-size)
@@ -45,7 +47,7 @@ authenticated or student-specific information.
 | `planner-section-preview.jpg` | 1100 × 706 | Expanded section details in course search |
 | `planner-preferences.png` | 897 × 710 | Preferences, a preferred time, and a weekly commitment |
 | `planner-calendar.png` | 897 × 710 | Previous and Next controls, weekly calendar, and exams |
-| `planner-hero-build-schedule.png` | 520 × 520 | Build your schedule screen used in the hero |
+| `planner-hero-build-schedule.png` | 1040 × 720 | High-resolution Build your schedule screen used in the hero |
 | `planner-swap-clean.jpg` | 840 × 900 | Current and alternate section groups |
 | `planner-details.png` | 966 × 660 | Meeting, seat, waitlist, section ID, exam, and freshness details |
 | `planner-campus-map.jpg` | 1400 × 944 | Campus routes and walking estimates |
@@ -54,7 +56,7 @@ authenticated or student-specific information.
 | `planner-share-export.png` | 1142 × 710 | Saved schedule with calendar and TSS controls |
 
 The visible terms, courses, seats, waitlists, and timestamps are examples rather
-than permanent facts. All PNGs are palette-quantized (256 colors) for size.
+than permanent facts. Most PNGs are palette-quantized (256 colors) for size.
 
 ## Current video
 
@@ -116,9 +118,9 @@ Before initial publication and at least once per academic term:
 
 ## Verification record
 
-Completed July 23–26, 2026 (re-verified after the current workflow images,
-campus-map guidance, TSS booking guidance, ratings-section removal, and
-plain-language review):
+Completed July 23–26, 2026 for the full guide. On July 28, the hero image,
+full-page copy, and evaluation-section removal were checked at desktop and
+mobile widths:
 
 - `html-validate` 11.5.6: no markup errors or warnings
 - axe-core 4.12.1, WCAG 2.0/2.1 A and AA rules: zero violations at desktop,
@@ -131,6 +133,7 @@ plain-language review):
 - Media: the guide uses current still images and has no autoplaying media
 - Mobile navigation: expands accessibly, follows in-page links, and closes after
   selection; scrollspy moves the active state and `aria-current` while scrolling
+- FAQ: 9 visible questions match the FAQ structured data
 - Keyboard focus: the skip link receives a visible 3 px gold outline; navigation
   uses native links and a native button
 - Console: no errors or warnings after a clean page load
