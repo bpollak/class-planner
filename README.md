@@ -36,9 +36,9 @@ page also works when opened from the local filesystem.
 ## Screenshot record
 
 The detailed-planner screenshots were captured from the development workspace
-on August 2, 2026. Older simple-planner and saved-schedule images were captured
-from the public Class Planner in July 2026. The images contain no authenticated
-or student-specific information.
+on August 2, 2026. Older saved-schedule images were captured from the public
+Class Planner in July 2026. The images contain no authenticated or
+student-specific information.
 
 | File | Dimensions | Workflow state |
 | --- | ---: | --- |
@@ -131,7 +131,7 @@ screenshots, navigation, and responsive layout were checked on August 2, 2026:
   no media autoplays
 - Mobile navigation: expands accessibly, follows in-page links, and closes after
   selection; scrollspy moves the active state and `aria-current` while scrolling
-- FAQ: 10 visible questions match the FAQ structured data
+- FAQ: 9 visible questions match the FAQ structured data
 - Keyboard focus: the skip link receives a visible 3 px gold outline; navigation
   uses native links and a native button
 - Console: no errors or warnings after a clean page load

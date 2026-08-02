@@ -209,7 +209,7 @@ button:focus,
 }
 
 .hero-shot-detailed {
-  aspect-ratio: 307 / 225;
+  aspect-ratio: 1535 / 1059;
   border-radius: 8px;
   box-shadow: 0 20px 50px rgba(11, 21, 38, 0.45);
   overflow: hidden;
@@ -221,7 +221,7 @@ button:focus,
   height: 100%;
   max-width: none;
   object-fit: cover;
-  object-position: left top;
+  object-position: center bottom;
   width: 100%;
 }
 
@@ -391,6 +391,25 @@ button:focus,
   overflow: hidden;
 }
 
+.detailed-workspace-frame {
+  aspect-ratio: 1535 / 1059;
+  border: 1px solid var(--guide-line);
+  border-radius: 12px;
+  box-shadow: 0 16px 40px rgba(24, 43, 73, 0.14);
+  overflow: hidden;
+}
+
+.screenshot .detailed-workspace-frame img {
+  border: 0;
+  border-radius: 0;
+  box-shadow: none;
+  height: auto;
+  margin: 0;
+  max-width: none;
+  transform: translateY(-5.867%);
+  width: 100%;
+}
+
 .screenshot-zoom .screenshot-frame {
   aspect-ratio: 897 / 710;
 }
@@ -485,6 +504,10 @@ button:focus,
 
 .screenshot-wide img {
   width: 930px;
+}
+
+.screenshot-wide .detailed-workspace-frame img {
+  width: 100%;
 }
 
 .term-list {

@@ -31,7 +31,7 @@
 
     <link href="https://cdn.ucsd.edu/cms/decorator-5/styles/bootstrap.min.css" rel="stylesheet">
     <link href="https://cdn.ucsd.edu/cms/decorator-5/styles/base.min.css" rel="stylesheet">
-    <link href="assets/css/site.css?v=13" rel="stylesheet">
+    <link href="assets/css/site.css?v=14" rel="stylesheet">
   </head>
 
   <body>
@@ -203,21 +203,22 @@
               </div>
               <p>
                 You can change the term or planning method later under
-                <strong>Workspace tools</strong>. The <strong>Simple planner</strong> also remains
-                available.
+                <strong>Workspace tools</strong>.
               </p>
             </div>
             <div class="col-md-7">
               <figure class="screenshot">
-                <img
-                  alt="Set up your planning workspace dialog with Plan manually and Build for me choices"
-                  class="img-responsive"
-                  decoding="async"
-                  height="1125"
-                  loading="lazy"
-                  src="assets/img/planner-detailed-setup.png"
-                  width="1535"
-                >
+                <div class="detailed-workspace-frame">
+                  <img
+                    alt="Set up your planning workspace dialog with Plan manually and Build for me choices"
+                    class="img-responsive"
+                    decoding="async"
+                    height="1125"
+                    loading="lazy"
+                    src="assets/img/planner-detailed-setup.png"
+                    width="1535"
+                  >
+                </div>
                 <figcaption>Choose a term and a planning method. You can change either later.</figcaption>
               </figure>
             </div>
@@ -253,15 +254,17 @@
             </div>
             <div class="col-md-7 col-md-pull-5">
               <figure class="screenshot">
-                <img
-                  alt="Detailed planner course search with filters for seats, department, delivery method, days, and times"
-                  class="img-responsive"
-                  decoding="async"
-                  height="1125"
-                  loading="lazy"
-                  src="assets/img/planner-detailed-filters.png"
-                  width="1535"
-                >
+                <div class="detailed-workspace-frame">
+                  <img
+                    alt="Detailed planner course search with filters for seats, department, delivery method, days, and times"
+                    class="img-responsive"
+                    decoding="async"
+                    height="1125"
+                    loading="lazy"
+                    src="assets/img/planner-detailed-filters.png"
+                    width="1535"
+                  >
+                </div>
                 <figcaption>Use filters to narrow the course list before you add courses.</figcaption>
               </figure>
             </div>
@@ -308,7 +311,10 @@
           </div>
 
           <figure class="screenshot screenshot-wide">
-            <section aria-label="Build for me workspace screenshot" class="screenshot-scroller">
+            <section
+              aria-label="Build for me workspace screenshot"
+              class="screenshot-scroller detailed-workspace-frame"
+            >
               <img
                 alt="Build for me workspace with selected courses, schedule navigation, and a weekly calendar"
                 class="img-responsive"
@@ -344,15 +350,17 @@
             </div>
             <div class="col-md-7 col-md-pull-5">
               <figure class="screenshot">
-                <img
-                  alt="Schedule preferences with Fewer days selected and a weekly Monday commitment"
-                  class="img-responsive"
-                  decoding="async"
-                  height="1125"
-                  loading="lazy"
-                  src="assets/img/planner-detailed-preferences.png"
-                  width="1535"
-                >
+                <div class="detailed-workspace-frame">
+                  <img
+                    alt="Schedule preferences with Fewer days selected and a weekly Monday commitment"
+                    class="img-responsive"
+                    decoding="async"
+                    height="1125"
+                    loading="lazy"
+                    src="assets/img/planner-detailed-preferences.png"
+                    width="1535"
+                  >
+                </div>
                 <figcaption>Set schedule goals, time limits, preferred times, and commitments.</figcaption>
               </figure>
             </div>
@@ -374,15 +382,17 @@
             </div>
             <div class="col-md-8">
               <figure class="screenshot">
-                <img
-                  alt="Map view showing a walking route from Mosaic to Center Hall with an eight-minute estimate"
-                  class="img-responsive"
-                  decoding="async"
-                  height="1125"
-                  loading="lazy"
-                  src="assets/img/planner-detailed-map.png"
-                  width="1535"
-                >
+                <div class="detailed-workspace-frame">
+                  <img
+                    alt="Map view showing a walking route from Mosaic to Center Hall with an eight-minute estimate"
+                    class="img-responsive"
+                    decoding="async"
+                    height="1125"
+                    loading="lazy"
+                    src="assets/img/planner-detailed-map.png"
+                    width="1535"
+                  >
+                </div>
                 <figcaption>Walking times are estimates. Check the route and time between classes.</figcaption>
               </figure>
             </div>
@@ -423,7 +433,10 @@
             </div>
             <div class="col-md-7">
               <figure class="screenshot">
-                <section aria-label="Manual planning workspace screenshot" class="screenshot-scroller">
+                <section
+                  aria-label="Manual planning workspace screenshot"
+                  class="screenshot-scroller detailed-workspace-frame"
+                >
                   <img
                     alt="Manual planning workspace with exact lecture and discussion choices beside a weekly calendar"
                     class="img-responsive"
@@ -582,7 +595,6 @@
                   <li>Let the planner choose sections or require exact sections.</li>
                   <li>Set schedule preferences and personal commitments.</li>
                   <li>Compare the Calendar, Details, and Map views before continuing to TSS.</li>
-                  <li>Keep using the Simple planner when you prefer the shorter workflow.</li>
                 </ul>
               </article>
             </div>
@@ -646,10 +658,6 @@
                   and preferences. <strong>Plan manually</strong> lets you choose every required
                   section yourself.
                 </p>
-              </article>
-              <article class="faq-item">
-                <h3>Can I keep using the Simple planner?</h3>
-                <p>Yes. Choose <strong>Simple planner</strong> at the top of the workspace.</p>
               </article>
               <article class="faq-item">
                 <h3>Why can’t I continue to TSS?</h3>
@@ -770,14 +778,6 @@
             "acceptedAnswer": {
               "@type": "Answer",
               "text": "Build for me creates compatible schedules from your courses and preferences. Plan manually lets you choose every required section yourself."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "Can I keep using the Simple planner?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Yes. Choose Simple planner at the top of the workspace."
             }
           },
           {
