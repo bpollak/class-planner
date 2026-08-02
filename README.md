@@ -42,7 +42,7 @@ student-specific information.
 
 | File | Dimensions | Workflow state |
 | --- | ---: | --- |
-| `planner-detailed-setup.png` | 1535 × 1125 | Term and Build for me or Plan manually choices |
+| `planner-detailed-setup.png` | 760 × 600 | Term and Build for me or Plan manually choices |
 | `planner-detailed-filters.png` | 1535 × 1125 | Course search, sorting, and filters |
 | `planner-detailed-auto.png` | 1535 × 1125 | Build for me workspace and generated schedule |
 | `planner-detailed-preferences.png` | 1535 × 1125 | Preferences and a weekly personal commitment |
