@@ -209,7 +209,7 @@ button:focus,
 }
 
 .hero-shot-detailed {
-  aspect-ratio: 13 / 9;
+  aspect-ratio: 307 / 225;
   border-radius: 8px;
   box-shadow: 0 20px 50px rgba(11, 21, 38, 0.45);
   overflow: hidden;
@@ -461,6 +461,12 @@ button:focus,
   margin-bottom: 0;
 }
 
+.planning-methods {
+  display: grid;
+  gap: 1rem;
+  margin: 1.5rem 0;
+}
+
 .personal-schedule-card {
   margin: 1.5rem 0;
 }
@@ -526,6 +532,10 @@ button:focus,
 
 .release-note-latest {
   margin-bottom: 1.5rem;
+}
+
+.release-note-initial {
+  margin-top: 1.5rem;
 }
 
 .release-note-latest .release-note {
@@ -646,7 +656,9 @@ code {
 }
 
 @media (max-width: 767px) {
-  .navbar-header {
+  .navbar .container > .navbar-header {
+    margin-left: 0;
+    margin-right: 0;
     position: relative;
   }
 

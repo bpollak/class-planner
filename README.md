@@ -35,23 +35,20 @@ page also works when opened from the local filesystem.
 
 ## Screenshot record
 
-Most screenshots were captured from the public Class Planner on July 25, 2026.
-The section-preview and campus-map images were captured from the July 26, 2026
-feature walkthrough supplied by the app team. The images contain no
-authenticated or student-specific information.
+The detailed-planner screenshots were captured from the development workspace
+on August 2, 2026. Older simple-planner and saved-schedule images were captured
+from the public Class Planner in July 2026. The images contain no authenticated
+or student-specific information.
 
 | File | Dimensions | Workflow state |
 | --- | ---: | --- |
-| `planner-search.png` | 640 × 640 | Retained alternate course-selection crop |
-| `planner-course-selection.png` | 897 × 710 | Added courses with section, seat, and waitlist counts |
-| `planner-section-preview.jpg` | 1100 × 706 | Expanded section details in course search |
-| `planner-preferences.png` | 897 × 710 | Preferences, a preferred time, and a weekly commitment |
-| `planner-calendar.png` | 897 × 710 | Previous and Next controls, weekly calendar, and exams |
-| `planner-hero-build-schedule.png` | 1040 × 720 | High-resolution Build your schedule screen used in the hero |
-| `planner-swap-clean.jpg` | 840 × 900 | Current and alternate section groups |
+| `planner-detailed-setup.png` | 1535 × 1125 | Term and Build for me or Plan manually choices |
+| `planner-detailed-filters.png` | 1535 × 1125 | Course search, sorting, and filters |
+| `planner-detailed-auto.png` | 1535 × 1125 | Build for me workspace and generated schedule |
+| `planner-detailed-preferences.png` | 1535 × 1125 | Preferences and a weekly personal commitment |
+| `planner-detailed-map.png` | 1535 × 1125 | Walking route and time between classes |
+| `planner-detailed-manual.png` | 1535 × 1125 | Exact lecture and discussion choices in manual mode |
 | `planner-details.png` | 966 × 660 | Meeting, seat, waitlist, section ID, exam, and freshness details |
-| `planner-campus-map.jpg` | 1400 × 944 | Campus routes and walking estimates |
-| `planner-campus-map-mobile.jpg` | 720 × 1088 | Mobile crop of walking estimates and schedule warnings |
 | `planner-tss-deep-link-poster.jpg` | 960 × 838 | Poster for the TSS deep-link demonstration |
 | `planner-share-export.png` | 1142 × 710 | Saved schedule with calendar and TSS controls |
 
@@ -62,7 +59,7 @@ than permanent facts. Most PNGs are palette-quantized (256 colors) for size.
 
 | File | Duration | Workflow |
 | --- | ---: | --- |
-| `planner-tss-deep-link.mp4` | 23.8 s | Finish & book, Open in TSS, and the matching TSS course page |
+| `planner-tss-deep-link.mp4` | 23.8 s | Direct course links and the matching TSS course page |
 
 ## Older video record
 
@@ -91,9 +88,10 @@ it is added to `source-media/`, convert it the same way and embed it in the
 
 ## Sources reviewed
 
-Reviewed July 26, 2026:
+Reviewed August 2, 2026:
 
 - [Class Planner](https://classplanner.apps.ucsd.edu/)
+- Detailed planner development workspace supplied by the app team
 - July 26 Class Planner feature walkthrough supplied by the app team
 - UC San Diego Class Planner feature documentation supplied for this project
 - [Decorator 5](https://developer.ucsd.edu/design/decorator/index.html)
@@ -118,22 +116,22 @@ Before initial publication and at least once per academic term:
 
 ## Verification record
 
-Completed July 23–26, 2026 for the full guide. On July 28, the hero image,
-full-page copy, and evaluation-section removal were checked at desktop and
-mobile widths:
+Completed July 23–28, 2026 for the original guide. The detailed-workspace copy,
+screenshots, navigation, and responsive layout were checked on August 2, 2026:
 
 - `html-validate` 11.5.6: no markup errors or warnings
 - axe-core 4.12.1, WCAG 2.0/2.1 A and AA rules: zero violations at desktop,
   390 px, and 320 px viewport sizes
 - Responsive browser checks: no document-level horizontal overflow at desktop,
   390 px, or 320 px
-- Responsive media: desktop uses the full campus map; phone widths use a
-  readable crop of the walking-time list
+- Responsive media: all detailed-planner screenshots stay inside the page at
+  desktop, 390 px, and 320 px widths
 - Typography: body copy 17 px; all sub-headings render larger than body text
-- Media: the guide uses current still images and has no autoplaying media
+- Media: the guide uses current still images and keeps the TSS demonstration;
+  no media autoplays
 - Mobile navigation: expands accessibly, follows in-page links, and closes after
   selection; scrollspy moves the active state and `aria-current` while scrolling
-- FAQ: 9 visible questions match the FAQ structured data
+- FAQ: 10 visible questions match the FAQ structured data
 - Keyboard focus: the skip link receives a visible 3 px gold outline; navigation
   uses native links and a native button
 - Console: no errors or warnings after a clean page load
