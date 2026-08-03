@@ -31,7 +31,7 @@
 
     <link href="https://cdn.ucsd.edu/cms/decorator-5/styles/bootstrap.min.css" rel="stylesheet">
     <link href="https://cdn.ucsd.edu/cms/decorator-5/styles/base.min.css" rel="stylesheet">
-    <link href="assets/css/site.css?v=14" rel="stylesheet">
+    <link href="assets/css/site.css?v=15" rel="stylesheet">
   </head>
 
   <body>
@@ -49,10 +49,10 @@
       </button>
       <ul class="nav navmenu-nav">
         <li class="active"><a href="#overview">Overview</a></li>
-        <li><a href="#build">Choose a method</a></li>
+        <li><a href="#build">Choose a mode</a></li>
         <li><a href="#preferences">Find courses</a></li>
-        <li><a href="#compare">Build for me</a></li>
-        <li><a href="#swap">Plan manually</a></li>
+        <li><a href="#compare">Auto planning</a></li>
+        <li><a href="#swap">Manual planning</a></li>
         <li><a href="#share">Continue to TSS</a></li>
         <li><a href="#release-notes">Release notes</a></li>
         <li><a href="#faq">FAQ</a></li>
@@ -112,10 +112,10 @@
         <div class="navbar-collapse collapse" id="navbar">
           <ul class="nav navbar-nav navbar-nav-list">
             <li class="active"><a href="#overview">Overview</a></li>
-            <li><a href="#build">Choose a method</a></li>
+            <li><a href="#build">Choose a mode</a></li>
             <li><a href="#preferences">Find courses</a></li>
-            <li><a href="#compare">Build for me</a></li>
-            <li><a href="#swap">Plan manually</a></li>
+            <li><a href="#compare">Auto planning</a></li>
+            <li><a href="#swap">Manual planning</a></li>
             <li><a href="#share">Continue to TSS</a></li>
             <li><a href="#release-notes">Release notes</a></li>
             <li><a href="#faq">FAQ</a></li>
@@ -138,8 +138,8 @@
             <div class="col-md-5">
               <h1>Build a schedule your way</h1>
               <p class="lead">
-                Use <strong>Build for me</strong> to compare compatible schedules, or use
-                <strong>Plan manually</strong> to choose exact lectures, discussions, and labs.
+                Use <strong>Auto planning</strong> to compare compatible schedules, or use
+                <strong>Manual planning</strong> to choose exact lectures, discussions, and labs.
               </p>
               <p>
                 Search and filter courses, set your preferences and commitments, review details
@@ -155,12 +155,12 @@
             <div class="col-md-7">
               <figure class="hero-shot hero-shot-detailed">
                 <img
-                  alt="Detailed planner in Build for me mode with selected courses and a weekly schedule"
+                  alt="Detailed planner in Auto planning mode with selected courses and a weekly schedule"
                   class="img-responsive"
                   decoding="async"
-                  height="1125"
+                  height="950"
                   src="assets/img/planner-detailed-auto.png"
-                  width="1535"
+                  width="1534"
                 >
               </figure>
             </div>
@@ -168,10 +168,10 @@
 
           <nav aria-label="Steps in this guide" class="step-nav">
             <ol>
-              <li><a href="#build"><span>1</span>Choose a method</a></li>
+              <li><a href="#build"><span>1</span>Choose a mode</a></li>
               <li><a href="#preferences"><span>2</span>Find courses</a></li>
-              <li><a href="#compare"><span>3</span>Build for me</a></li>
-              <li><a href="#swap"><span>4</span>Plan manually</a></li>
+              <li><a href="#compare"><span>3</span>Auto planning</a></li>
+              <li><a href="#swap"><span>4</span>Manual planning</a></li>
               <li><a href="#share"><span>5</span>Continue to TSS</a></li>
             </ol>
           </nav>
@@ -181,20 +181,20 @@
       <section class="guide-section" id="build">
         <div class="container">
           <div class="row guide-row">
-            <div class="col-md-5">
-              <p class="step-label"><span>1</span> Choose a method</p>
+            <div class="col-md-10 col-md-offset-1">
+              <p class="step-label"><span>1</span> Choose a mode</p>
               <h2>Decide how much control you want</h2>
-              <p>Choose a term, then choose one of two planning methods.</p>
+              <p>Choose a term, then choose one of two planning modes.</p>
               <div class="planning-methods">
                 <div class="info-card">
-                  <h3 class="h4">Build for me</h3>
+                  <h3 class="h4">Auto planning</h3>
                   <p>
                     Add courses and preferences. Class Planner creates compatible schedules for
                     you to compare.
                   </p>
                 </div>
                 <div class="info-card">
-                  <h3 class="h4">Plan manually</h3>
+                  <h3 class="h4">Manual planning</h3>
                   <p>
                     Choose the exact lecture, discussion, and lab sections you want and see them
                     together on the calendar.
@@ -202,25 +202,9 @@
                 </div>
               </div>
               <p>
-                You can change the term or planning method later under
+                You can change the term or planning mode later under
                 <strong>Workspace tools</strong>.
               </p>
-            </div>
-            <div class="col-md-7">
-              <figure class="screenshot">
-                <div class="detailed-workspace-frame">
-                  <img
-                    alt="Set up your planning workspace dialog with Plan manually and Build for me choices"
-                    class="img-responsive"
-                    decoding="async"
-                    height="600"
-                    loading="lazy"
-                    src="assets/img/planner-detailed-setup.png"
-                    width="760"
-                  >
-                </div>
-                <figcaption>Choose a term and a planning method. You can change either later.</figcaption>
-              </figure>
             </div>
           </div>
         </div>
@@ -275,7 +259,7 @@
       <section class="guide-section" id="compare">
         <div class="container">
           <div class="section-heading">
-            <p class="step-label"><span>3</span> Build for me</p>
+            <p class="step-label"><span>3</span> Auto planning</p>
             <h2>Compare schedules built around your choices</h2>
             <p class="lead">
               Class Planner combines the courses you chose with your preferences and shows up to
@@ -312,17 +296,17 @@
 
           <figure class="screenshot screenshot-wide">
             <section
-              aria-label="Build for me workspace screenshot"
-              class="screenshot-scroller detailed-workspace-frame"
+              aria-label="Auto planning workspace screenshot"
+              class="screenshot-scroller"
             >
               <img
-                alt="Build for me workspace with selected courses, schedule navigation, and a weekly calendar"
+                alt="Auto planning workspace with selected courses, schedule navigation, and a weekly calendar"
                 class="img-responsive"
                 decoding="async"
-                height="1125"
+                height="950"
                 loading="lazy"
                 src="assets/img/planner-detailed-auto.png"
-                width="1535"
+                width="1534"
               >
             </section>
             <figcaption>
@@ -382,17 +366,15 @@
             </div>
             <div class="col-md-8">
               <figure class="screenshot">
-                <div class="detailed-workspace-frame">
-                  <img
-                    alt="Map view showing a walking route from Mosaic to Center Hall with an eight-minute estimate"
-                    class="img-responsive"
-                    decoding="async"
-                    height="1125"
-                    loading="lazy"
-                    src="assets/img/planner-detailed-map.png"
-                    width="1535"
-                  >
-                </div>
+                <img
+                  alt="Map view showing a walking route from Mosaic to Center Hall with an eight-minute estimate"
+                  class="img-responsive"
+                  decoding="async"
+                  height="970"
+                  loading="lazy"
+                  src="assets/img/planner-detailed-map.png"
+                  width="954"
+                >
                 <figcaption>Walking times are estimates. Check the route and time between classes.</figcaption>
               </figure>
             </div>
@@ -403,7 +385,7 @@
       <section class="guide-section section-tint" id="swap">
         <div class="container">
           <div class="section-heading">
-            <p class="step-label"><span>4</span> Plan manually</p>
+            <p class="step-label"><span>4</span> Manual planning</p>
             <h2>Choose exact sections yourself</h2>
             <p class="lead">
               Use manual planning when you want to control every lecture, discussion, and lab.
@@ -515,13 +497,13 @@
                   height="838"
                   muted
                   playsinline
-                  poster="assets/img/planner-tss-deep-link-poster.jpg"
+                  poster="assets/img/planner-tss-handoff-poster.jpg"
                   preload="metadata"
                   width="960"
                 >
                   <source src="assets/video/planner-tss-deep-link.mp4" type="video/mp4">
                   Your browser cannot play this video. See the
-                  <a href="assets/img/planner-tss-deep-link-poster.jpg">TSS booking screenshot</a>
+                  <a href="assets/img/planner-tss-handoff-poster.jpg">Saved schedule handoff screenshot</a>
                   instead.
                 </video>
                 <figcaption>
@@ -588,13 +570,30 @@
             <div class="col-sm-12 release-note-latest">
               <article class="release-note">
                 <time datetime="2026-08-02">August 2, 2026</time>
-                <h3>Detailed planner workspace</h3>
+                <h3>What is different in this version</h3>
                 <ul>
-                  <li>Choose <strong>Build for me</strong> or <strong>Plan manually</strong>.</li>
-                  <li>Search, sort, and filter courses in one workspace.</li>
-                  <li>Let the planner choose sections or require exact sections.</li>
-                  <li>Set schedule preferences and personal commitments.</li>
-                  <li>Compare the Calendar, Details, and Map views before continuing to TSS.</li>
+                  <li>
+                    The mode names are shorter and consistent: <strong>Auto planning</strong>
+                    replaces the previous “Build for me” label, and <strong>Manual planning</strong>
+                    replaces “Plan manually.”
+                  </li>
+                  <li>
+                    Course search, filters, selected courses, preferences, and schedule review now
+                    live together in one detailed workspace.
+                  </li>
+                  <li>
+                    <strong>Auto planning</strong> creates compatible schedules to compare;
+                    <strong>Manual planning</strong> lets you select exact lectures, discussions,
+                    and labs.
+                  </li>
+                  <li>
+                    Calendar, Details, and Map views now make it easier to review times, seats,
+                    locations, and walking time before choosing a schedule.
+                  </li>
+                  <li>
+                    The TSS handoff includes a booking checklist and direct course links; booking
+                    still happens in TSS.
+                  </li>
                 </ul>
               </article>
             </div>
@@ -652,11 +651,11 @@
                 </p>
               </article>
               <article class="faq-item">
-                <h3>What is the difference between Build for me and Plan manually?</h3>
+                <h3>What is the difference between Auto and Manual planning?</h3>
                 <p>
-                  <strong>Build for me</strong> creates compatible schedules from your courses
-                  and preferences. <strong>Plan manually</strong> lets you choose every required
-                  section yourself.
+                  <strong>Auto planning</strong> creates compatible schedules from your courses
+                  and preferences. <strong>Manual planning</strong> lets you choose every
+                  required section yourself.
                 </p>
               </article>
               <article class="faq-item">
@@ -774,10 +773,10 @@
           },
           {
             "@type": "Question",
-            "name": "What is the difference between Build for me and Plan manually?",
+            "name": "What is the difference between Auto and Manual planning?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "Build for me creates compatible schedules from your courses and preferences. Plan manually lets you choose every required section yourself."
+              "text": "Auto planning creates compatible schedules from your courses and preferences. Manual planning lets you choose every required section yourself."
             }
           },
           {

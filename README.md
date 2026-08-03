@@ -37,19 +37,18 @@ page also works when opened from the local filesystem.
 
 The detailed-planner screenshots were captured from the development workspace
 on August 2, 2026. Older saved-schedule images were captured from the public
-Class Planner in July 2026. The images contain no authenticated or
-student-specific information.
+Class Planner in July 2026. All published captures use the light appearance and
+contain no authenticated or student-specific information.
 
 | File | Dimensions | Workflow state |
 | --- | ---: | --- |
-| `planner-detailed-setup.png` | 760 × 600 | Term and Build for me or Plan manually choices |
 | `planner-detailed-filters.png` | 1535 × 1125 | Course search, sorting, and filters |
-| `planner-detailed-auto.png` | 1535 × 1125 | Build for me workspace and generated schedule |
+| `planner-detailed-auto.png` | 1534 × 950 | Auto planning workspace and generated schedule |
 | `planner-detailed-preferences.png` | 1535 × 1125 | Preferences and a weekly personal commitment |
-| `planner-detailed-map.png` | 1535 × 1125 | Walking route and time between classes |
+| `planner-detailed-map.png` | 954 × 970 | Walking route and time between classes |
 | `planner-detailed-manual.png` | 1535 × 1125 | Exact lecture and discussion choices in manual mode |
 | `planner-details.png` | 966 × 660 | Meeting, seat, waitlist, section ID, exam, and freshness details |
-| `planner-tss-deep-link-poster.jpg` | 960 × 838 | Poster for the TSS deep-link demonstration |
+| `planner-tss-handoff-poster.jpg` | 960 × 838 | Saved schedule with the Finish & book handoff |
 | `planner-share-export.png` | 1142 × 710 | Saved schedule with calendar and TSS controls |
 
 The visible terms, courses, seats, waitlists, and timestamps are examples rather

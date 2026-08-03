@@ -483,6 +483,7 @@ button:focus,
 .planning-methods {
   display: grid;
   gap: 1rem;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
   margin: 1.5rem 0;
 }
 
@@ -679,6 +680,10 @@ code {
 }
 
 @media (max-width: 767px) {
+  .planning-methods {
+    grid-template-columns: 1fr;
+  }
+
   .navbar .container > .navbar-header {
     margin-left: 0;
     margin-right: 0;
