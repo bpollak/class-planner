@@ -471,8 +471,11 @@ button:focus,
 }
 
 .info-card h3 {
-  font-size: 1.125rem;
-  margin-top: 0;
+  color: var(--ucsd-navy);
+  font-size: 1.25rem;
+  font-weight: 700;
+  line-height: 1.25;
+  margin: 0 0 0.75rem;
 }
 
 .info-card p {
