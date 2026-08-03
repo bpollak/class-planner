@@ -42,6 +42,7 @@ contain no authenticated or student-specific information.
 
 | File | Dimensions | Workflow state |
 | --- | ---: | --- |
+| `planner-hero-feature-rich.png` | 1800 × 1110 | Hero view with search, filters, selected courses, schedule controls, and section details |
 | `planner-detailed-filters.png` | 1535 × 1125 | Course search, sorting, and filters |
 | `planner-detailed-auto.png` | 1534 × 950 | Auto planning workspace and generated schedule |
 | `planner-detailed-preferences.png` | 1535 × 1125 | Preferences and a weekly personal commitment |

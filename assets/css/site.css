@@ -209,7 +209,7 @@ button:focus,
 }
 
 .hero-shot-detailed {
-  aspect-ratio: 1535 / 1059;
+  aspect-ratio: 1800 / 1110;
   border-radius: 8px;
   box-shadow: 0 20px 50px rgba(11, 21, 38, 0.45);
   overflow: hidden;
@@ -221,7 +221,7 @@ button:focus,
   height: 100%;
   max-width: none;
   object-fit: cover;
-  object-position: center bottom;
+  object-position: center;
   width: 100%;
 }
 
